@@ -9,11 +9,6 @@ body {
 	opacity: 0.9;
 }
 
-
-h2, h3, h4 {
-	padding: 10px;
-}
-
 /* Content Universal Rules */
 
 .main {
@@ -54,13 +49,14 @@ header {
 }
 
 header nav {
+	display: flex;
 	margin-right: 10px;
 	text-decoration: underline;
 }
 
 header a {
 	color: seashell;
-	padding-left: 20px;
+	margin-left: 20px;
 }
 
 /* Mission Content */
@@ -85,9 +81,13 @@ header a {
 
 /* Tea of the Month Content */
 
+#month_location {
+	height: 70px;
+}
+
 #month {
 	margin: auto;
-	margin-top: 40px;
+	margin-top: -30px;
 	width: 1000px;
 }
 
@@ -151,4 +151,19 @@ header a {
 
 .location span {
 	display: block;
+}
+
+/* Contact Content */
+
+.contact {
+	height: 200px;
+	margin-bottom: 20px;
+}
+
+/* Footer */
+
+footer {
+	text-align: left;
+	margin-left: 20px;
+	font-weight: bold;
 }
