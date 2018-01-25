@@ -1,0 +1,154 @@
+/* Universal Rules */
+
+body {
+	margin: 0;
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+}
+
+
+h2, h3, h4 {
+	padding: 10px;
+}
+
+/* Content Universal Rules */
+
+.main {
+	text-align: center;
+	display: flex;
+	width: 1200px;
+	align-items: center;
+	flex-direction: column;
+	margin: auto;
+}
+
+.content {
+	margin-top: 70px;
+}
+
+/* Header */
+
+header {
+	align-items: center;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	height: 69px;
+	border-bottom: 1px solid seashell;
+	display: inline-flex;
+	background-color: black;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+}
+
+.logo img {
+	height: 50px;
+	margin-left: 10px;
+}
+
+header nav {
+	margin-right: 10px;
+	text-decoration: underline;
+}
+
+header a {
+	color: seashell;
+	padding-left: 20px;
+}
+
+/* Mission Content */
+
+#mission {
+	background-image: url("../images/img-mission-background.jpg");
+	height: 700px;
+	width: 1200px;
+}
+
+#mission.mission_flex {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.mission_content {
+	width: 100%;
+	background-color: black;
+}
+
+/* Tea of the Month Content */
+
+#month {
+	margin: auto;
+	margin-top: 40px;
+	width: 1000px;
+}
+
+#month .month_flex {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#month.month_flex h2, h4 {
+	display: block;
+}
+
+.month_image span {
+	display: block;
+	margin-top: 10px;
+}
+
+.month_image img {
+	width: 300px;
+	height: 200px;
+
+}
+
+.month_image {
+	height: 232px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 30px;
+}
+
+/* Locations Content */
+
+#locations {
+	background-image: url("../images/img-locations-background.jpg");
+	height: 500px;
+	width: 1200px;
+	margin-top: 40px;
+}
+
+.locations_content h2 {
+	display: block !important;
+	text-align: center;
+	width: 1200px;
+	margin-top: 80px;
+	margin-bottom: 5px;
+}
+
+.locations_content {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	vertical-align: middle;
+}
+
+.location {
+	background-color: black;
+	width: 300px;
+	margin: 0px 20px;
+}
+
+.location span {
+	display: block;
+}
