@@ -101,9 +101,9 @@ header a {
 	display: block;
 }
 
-.month_image span {
+.month_image .month_h4 {
 	display: block;
-	margin-top: 10px;
+	margin-top: 5px;
 }
 
 .month_image img {
@@ -133,7 +133,7 @@ header a {
 	text-align: center;
 	width: 1200px;
 	margin-top: 80px;
-	margin-bottom: 5px;
+	margin-bottom: 15px;
 }
 
 .locations_content {
@@ -147,10 +147,12 @@ header a {
 	background-color: black;
 	width: 300px;
 	margin: 0px 20px;
+	opacity: 1;
 }
 
-.location span {
+.location h4 {
 	display: block;
+	margin: 0;
 }
 
 /* Contact Content */
